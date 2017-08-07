@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CED57D41BF7CEDE001EEAE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CED57D31BF7CEDE001EEAE1 /* AppDelegate.swift */; };
+		7CED57DD1BF7CEDE001EEAE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CED57DC1BF7CEDE001EEAE1 /* Assets.xcassets */; };
+		7CED57E81BF7CEDE001EEAE1 /* IelkoTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CED57E71BF7CEDE001EEAE1 /* IelkoTVTests.swift */; };
+		7CED57F31BF7CEDE001EEAE1 /* IelkoTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CED57F21BF7CEDE001EEAE1 /* IelkoTVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CED57E41BF7CEDE001EEAE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CED57C81BF7CEDD001EEAE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CED57CF1BF7CEDE001EEAE1;
+			remoteInfo = IelkoTV;
+		};
+		7CED57EF1BF7CEDE001EEAE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CED57C81BF7CEDD001EEAE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CED57CF1BF7CEDE001EEAE1;
+			remoteInfo = IelkoTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CED57D01BF7CEDE001EEAE1 /* IelkoTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IelkoTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CED57D31BF7CEDE001EEAE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CED57DC1BF7CEDE001EEAE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CED57DE1BF7CEDE001EEAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CED57E31BF7CEDE001EEAE1 /* IelkoTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IelkoTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CED57E71BF7CEDE001EEAE1 /* IelkoTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IelkoTVTests.swift; sourceTree = "<group>"; };
+		7CED57E91BF7CEDE001EEAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CED57EE1BF7CEDE001EEAE1 /* IelkoTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IelkoTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CED57F21BF7CEDE001EEAE1 /* IelkoTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IelkoTVUITests.swift; sourceTree = "<group>"; };
+		7CED57F41BF7CEDE001EEAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CED57CD1BF7CEDE001EEAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CED57E01BF7CEDE001EEAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CED57EB1BF7CEDE001EEAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CED57C71BF7CEDD001EEAE1 = {
+			isa = PBXGroup;
+			children = (
+				7CED57D21BF7CEDE001EEAE1 /* IelkoTV */,
+				7CED57E61BF7CEDE001EEAE1 /* IelkoTVTests */,
+				7CED57F11BF7CEDE001EEAE1 /* IelkoTVUITests */,
+				7CED57D11BF7CEDE001EEAE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CED57D11BF7CEDE001EEAE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CED57D01BF7CEDE001EEAE1 /* IelkoTV.app */,
+				7CED57E31BF7CEDE001EEAE1 /* IelkoTVTests.xctest */,
+				7CED57EE1BF7CEDE001EEAE1 /* IelkoTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CED57D21BF7CEDE001EEAE1 /* IelkoTV */ = {
+			isa = PBXGroup;
+			children = (
+				7CED57D31BF7CEDE001EEAE1 /* AppDelegate.swift */,
+				7CED57DC1BF7CEDE001EEAE1 /* Assets.xcassets */,
+				7CED57DE1BF7CEDE001EEAE1 /* Info.plist */,
+			);
+			name = IelkoTV;
+			path = IelkoTV;
+			sourceTree = "<group>";
+		};
+		7CED57E61BF7CEDE001EEAE1 /* IelkoTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CED57E71BF7CEDE001EEAE1 /* IelkoTVTests.swift */,
+				7CED57E91BF7CEDE001EEAE1 /* Info.plist */,
+			);
+			name = IelkoTVTests;
+			path = IelkoTVTests;
+			sourceTree = "<group>";
+		};
+		7CED57F11BF7CEDE001EEAE1 /* IelkoTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CED57F21BF7CEDE001EEAE1 /* IelkoTVUITests.swift */,
+				7CED57F41BF7CEDE001EEAE1 /* Info.plist */,
+			);
+			name = IelkoTVUITests;
+			path = IelkoTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CED57CF1BF7CEDE001EEAE1 /* IelkoTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CED57F71BF7CEDE001EEAE1 /* Build configuration list for PBXNativeTarget "IelkoTV" */;
+			buildPhases = (
+				7CED57CC1BF7CEDE001EEAE1 /* Sources */,
+				7CED57CD1BF7CEDE001EEAE1 /* Frameworks */,
+				7CED57CE1BF7CEDE001EEAE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IelkoTV;
+			productName = IelkoTV;
+			productReference = 7CED57D01BF7CEDE001EEAE1 /* IelkoTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CED57E21BF7CEDE001EEAE1 /* IelkoTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CED57FA1BF7CEDE001EEAE1 /* Build configuration list for PBXNativeTarget "IelkoTVTests" */;
+			buildPhases = (
+				7CED57DF1BF7CEDE001EEAE1 /* Sources */,
+				7CED57E01BF7CEDE001EEAE1 /* Frameworks */,
+				7CED57E11BF7CEDE001EEAE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CED57E51BF7CEDE001EEAE1 /* PBXTargetDependency */,
+			);
+			name = IelkoTVTests;
+			productName = IelkoTVTests;
+			productReference = 7CED57E31BF7CEDE001EEAE1 /* IelkoTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CED57ED1BF7CEDE001EEAE1 /* IelkoTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CED57FD1BF7CEDE001EEAE1 /* Build configuration list for PBXNativeTarget "IelkoTVUITests" */;
+			buildPhases = (
+				7CED57EA1BF7CEDE001EEAE1 /* Sources */,
+				7CED57EB1BF7CEDE001EEAE1 /* Frameworks */,
+				7CED57EC1BF7CEDE001EEAE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CED57F01BF7CEDE001EEAE1 /* PBXTargetDependency */,
+			);
+			name = IelkoTVUITests;
+			productName = IelkoTVUITests;
+			productReference = 7CED57EE1BF7CEDE001EEAE1 /* IelkoTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CED57C81BF7CEDD001EEAE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ielko.com;
+				TargetAttributes = {
+					7CED57CF1BF7CEDE001EEAE1 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = QQ6H4EQ98C;
+						LastSwiftMigration = 0810;
+					};
+					7CED57E21BF7CEDE001EEAE1 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0810;
+						TestTargetID = 7CED57CF1BF7CEDE001EEAE1;
+					};
+					7CED57ED1BF7CEDE001EEAE1 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0810;
+						TestTargetID = 7CED57CF1BF7CEDE001EEAE1;
+					};
+				};
+			};
+			buildConfigurationList = 7CED57CB1BF7CEDD001EEAE1 /* Build configuration list for PBXProject "IelkoTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CED57C71BF7CEDD001EEAE1;
+			productRefGroup = 7CED57D11BF7CEDE001EEAE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CED57CF1BF7CEDE001EEAE1 /* IelkoTV */,
+				7CED57E21BF7CEDE001EEAE1 /* IelkoTVTests */,
+				7CED57ED1BF7CEDE001EEAE1 /* IelkoTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CED57CE1BF7CEDE001EEAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CED57DD1BF7CEDE001EEAE1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CED57E11BF7CEDE001EEAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CED57EC1BF7CEDE001EEAE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CED57CC1BF7CEDE001EEAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CED57D41BF7CEDE001EEAE1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CED57DF1BF7CEDE001EEAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CED57E81BF7CEDE001EEAE1 /* IelkoTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CED57EA1BF7CEDE001EEAE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CED57F31BF7CEDE001EEAE1 /* IelkoTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CED57E51BF7CEDE001EEAE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CED57CF1BF7CEDE001EEAE1 /* IelkoTV */;
+			targetProxy = 7CED57E41BF7CEDE001EEAE1 /* PBXContainerItemProxy */;
+		};
+		7CED57F01BF7CEDE001EEAE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CED57CF1BF7CEDE001EEAE1 /* IelkoTV */;
+			targetProxy = 7CED57EF1BF7CEDE001EEAE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7CED57F51BF7CEDE001EEAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		7CED57F61BF7CEDE001EEAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CED57F81BF7CEDE001EEAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution";
+				INFOPLIST_FILE = IelkoTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ielko.tvos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		7CED57F91BF7CEDE001EEAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution";
+				INFOPLIST_FILE = IelkoTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ielko.tvos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		7CED57FB1BF7CEDE001EEAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IelkoTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = upg.gr.IelkoTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IelkoTV.app/IelkoTV";
+			};
+			name = Debug;
+		};
+		7CED57FC1BF7CEDE001EEAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IelkoTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = upg.gr.IelkoTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IelkoTV.app/IelkoTV";
+			};
+			name = Release;
+		};
+		7CED57FE1BF7CEDE001EEAE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IelkoTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = upg.gr.IelkoTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IelkoTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7CED57FF1BF7CEDE001EEAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IelkoTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = upg.gr.IelkoTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = IelkoTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CED57CB1BF7CEDD001EEAE1 /* Build configuration list for PBXProject "IelkoTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CED57F51BF7CEDE001EEAE1 /* Debug */,
+				7CED57F61BF7CEDE001EEAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CED57F71BF7CEDE001EEAE1 /* Build configuration list for PBXNativeTarget "IelkoTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CED57F81BF7CEDE001EEAE1 /* Debug */,
+				7CED57F91BF7CEDE001EEAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CED57FA1BF7CEDE001EEAE1 /* Build configuration list for PBXNativeTarget "IelkoTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CED57FB1BF7CEDE001EEAE1 /* Debug */,
+				7CED57FC1BF7CEDE001EEAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CED57FD1BF7CEDE001EEAE1 /* Build configuration list for PBXNativeTarget "IelkoTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CED57FE1BF7CEDE001EEAE1 /* Debug */,
+				7CED57FF1BF7CEDE001EEAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CED57C81BF7CEDD001EEAE1 /* Project object */;
+}
